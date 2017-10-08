@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajesh.digiindiabuzz.aboutus">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/viswesh"
+        android:rotation="0"
+        android:id="@+id/abimg" />
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#FFF"
+        android:text="Text Matters is a UK-based information design consultancy, established in Reading in 1990 by partners Mark Barratt and Sue Walker.
+We use our experience in language, design, systems and process improvement to deal with communication issues in a way that is focused on users. We work in print and electronic media, and specialise in explaining things through:
+clear language
+typography and graphic design
+research and copywriting
+process analysis.
+We have a core team with skills ranging from copywriting and editing for clear language, to form design for print and screen, to structured documents for parallel publishing.
+In addition we can call on experts and consultants who provide support in specific areas such as database-driven websites, and electronic forms.
+We have contacts in the industry with complementary skills enabling us to further increase our resources on an as-needed basis."
+        android:textSize="20dp" />
+
+</LinearLayout>
+
+</ScrollView>

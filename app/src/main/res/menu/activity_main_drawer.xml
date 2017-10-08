@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About us"
+            />
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/services1"
+            android:title="Services" />
+        <item
+            android:id="@+id/clients"
+            android:icon="@drawable/client"
+            android:title="Clients" />
+        <item
+            android:id="@+id/course"
+            android:icon="@drawable/course"
+            android:title="Courses" />
+
+        <item
+                android:id="@+id/careers"
+                android:icon="@drawable/career"
+                android:title="Careers" />
+        <item
+                android:id="@+id/contacts"
+                android:icon="@drawable/contacts"
+                android:title="Contact us" />
+    </group>
+
+
+</menu>

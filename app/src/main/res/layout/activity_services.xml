@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.rajesh.digiindiabuzz.aboutus">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#000">
+
+            <LinearLayout
+                android:layout_width="338dp"
+                android:layout_height="530dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shapes"
+                android:id="@+id/branding" >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="120dp"
+            android:textColor="#DAA520"
+            android:text="BRANDING"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/androidicon"
+            android:rotation="0"
+            android:id="@+id/androidapp" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="55dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="115dp"
+                    android:textColor="#FFF"
+                    android:text="LOGO  DESIGN"
+                    android:textSize="18dp"
+                    android:id="@+id/textView2" />
+
+                <TextView
+                    android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="115dp"
+            android:textColor="#FFF"
+            android:text="BRANDBOOKS"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="110dp"
+            android:textColor="#FFF"
+            android:text="BUSINESS CARDS"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="70dp"
+            android:textColor="#FFF"
+            android:text="LETTERHEAD AND ENVELOPS"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="115dp"
+            android:textColor="#FFF"
+            android:text="STATIONERY"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="115dp"
+            android:textColor="#FFF"
+            android:text="PACKAGING"
+            android:textSize="18dp" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="338dp"
+            android:layout_height="530dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shapes"
+            android:id="@+id/website"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="120dp"
+                android:textColor="#DAA520"
+                android:text="WEBSITE"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="81dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/website" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="DESIGN AND DEVELOPMENT"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#FFF"
+                android:text="RESPONSIVE DESIGN"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="95dp"
+                android:textColor="#FFF"
+                android:text="ECOMMERCE"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="125dp"
+                android:textColor="#FFF"
+                android:text="SEO"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#FFF"
+                android:text="CONTENT MANAGAMENT SYSTEM"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="75dp"
+                android:textColor="#FFF"
+                android:text="E-MAIL COMPAIGNS"
+                android:textSize="18dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="338dp"
+            android:layout_height="530dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shapes"
+            android:id="@+id/smm"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="135dp"
+                android:textColor="#DAA520"
+                android:text="SMM"
+                android:textSize="20dp"
+                />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/smm"
+                android:id="@+id/smmimg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="SOCIAL MEDIA MARKETING"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="CRAFTING CREATING ENGAGING CONTENT"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:layout_width="246dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="DRIVING CONVERSATION"
+                android:textSize="18dp"
+                android:layout_weight="0.36" />
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="DIGITAL MARKETING"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="DIGITAL ADVERTISING"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="ANALYTICS AND REPORTING"
+                android:textSize="18dp"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="338dp"
+            android:layout_height="530dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shapes"
+            android:id="@+id/production"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="209dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="105dp"
+                android:textColor="#DAA520"
+                android:text="PRODUCTION"
+                android:textSize="20dp"
+                android:layout_weight="0.21"
+                android:id="@+id/textView3" />
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/production"
+                android:id="@+id/productimg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="PHOTOGRAPHY"
+                android:textSize="18dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="SCRIPTING AND STORY BOARD"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:layout_width="246dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="2D AND 3D ANIMATION"
+                android:textSize="18dp"
+                android:layout_weight="0.36" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="VIDEO SHOOTING"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="VIDEO EDITING"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="SOUND RECORDING"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="338dp"
+            android:layout_height="530dp"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/shapes"
+            android:id="@+id/advertising"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="209dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="105dp"
+                android:textColor="#DAA520"
+                android:text="ADVERTISING"
+                android:textSize="20dp"
+                android:layout_weight="0.21"
+                android:id="@+id/ad" />
+
+            <ImageView
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/newspaper"
+                android:id="@+id/adimg" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="NEWSPAPER ADVERTISING"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="MAGAZINE ADVERTISING"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="246dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="TELEVISION COMMERCIAL"
+                android:textSize="18dp"
+                android:layout_weight="0.36" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="RADIO JINGLE"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="DIGITAL ADVERTISING"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="55dp"
+                android:textColor="#FFF"
+                android:text="OUTDOOR ADVERTISING"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
